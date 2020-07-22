@@ -17,12 +17,13 @@ import {FormsModule} from '@angular/forms';
     DashboardComponent],
   imports: [
     BrowserModule,
-    BrowserModule,
     FormsModule,
     AppRoutingModule,
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent,
+              ChatComponent
+  ]
 })
 export class AppModule { }
