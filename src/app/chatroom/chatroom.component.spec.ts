@@ -1,6 +1,6 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { ChatroomComponent } from './chatroom.component';
+import {ChatroomComponent} from './chatroom.component';
 
 describe('ChatroomComponent', () => {
   let component: ChatroomComponent;
@@ -8,9 +8,9 @@ describe('ChatroomComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChatroomComponent ]
+      declarations: [ChatroomComponent]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
