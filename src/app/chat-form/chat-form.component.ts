@@ -22,6 +22,7 @@ export class ChatFormComponent implements OnInit {
   }
 
   handleSubmit(event): void{
+// TODO enter toes reageerd niet
     if (event.key === 13) {
       this.send();
     }

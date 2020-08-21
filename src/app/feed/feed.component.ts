@@ -2,6 +2,7 @@ import {Component, OnChanges, OnInit, SimpleChange} from '@angular/core';
 import {AngularFireList} from 'angularfire2/database';
 import {ChatService} from '../services/chat.service';
 import {ChatMessage} from '../models/chat-message.model';
+import {NgZone} from '@angular/core';
 
 
 @Component({
