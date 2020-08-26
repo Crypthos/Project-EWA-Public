@@ -15,7 +15,7 @@ export class FeedComponent implements OnInit, OnChanges {
 
   constructor(private chat: ChatService) {
   }
-
+// Test code, om het gedrag van het verzonden berichten te controleren in de feed
   ngOnInit(): void {
     console.log('feed initializing...');
     this.feed = this.chat.getMessages();

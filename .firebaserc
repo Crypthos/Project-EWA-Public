@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ewa-tst-01": {
+      "hosting": {
+        "ewa": [
+          "ewa-tst-01"
+        ]
+      }
+    }
+  }
+}

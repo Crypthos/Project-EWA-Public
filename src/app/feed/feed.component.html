@@ -1,4 +1,6 @@
 <div class="feed">
+<!--  feed bug zorgt ervoor dat message niet worden gedisplayed in de message feed,
+ niet toe te wijzen aan null parameter maar welke is onbekend-->
   <div *ngFor="let message of feed | async" class="message">
     <p>Message Here!</p>
     <app-message [chatMessage]=message></app-message>

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ewa",
+      "public": "dist/ewa",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,9 @@ import {ChatService} from '../services/chat.service';
   styleUrls: ['./message.component.css']
 })
 export class MessageComponent implements OnInit {
-
+/**
+ * message format attributes
+ */
   @Input() chatMessage: ChatMessage;
   userEmail: string;
   userName: string;
@@ -20,6 +22,10 @@ export class MessageComponent implements OnInit {
   constructor() {
   }
 
+  /**
+   * 
+   * @param chatMessage format 
+   */
   ngOnInit(chatMessage = this.chatMessage): void {
     this.messageContent = chatMessage.message;
     this.timeStamp = chatMessage.timeSent;

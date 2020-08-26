@@ -1,3 +1,6 @@
+/*
+representatie van een gebruiker
+ */
 export class User {
   uid?: string;
   email?: string;

@@ -14,7 +14,7 @@ export class SignupFormComponent {
   password: string;
   displayName: string;
   errorMsg: string;
-  private chat: any[];//TODO remove later
+  private chat: any[]; // TODO remove later, to make concreet
 
    constructor(private  authService: AuthService, private router: Router){
      function signUp() {

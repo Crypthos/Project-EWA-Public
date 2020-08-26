@@ -1,3 +1,6 @@
+/*
+representatie van een chat bericht
+ */
 export class ChatMessage {
   $key?: string;
   email?: string;

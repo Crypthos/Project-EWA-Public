@@ -9,6 +9,9 @@ import {User} from '../models/user.model';
 @Injectable({
   providedIn: 'root'
 })
+/**
+ *   Firebase authenticatie service/regelaar
+ */
 export class AuthService {
   private user: Observable<firebase.User>;
   private authService: any;
